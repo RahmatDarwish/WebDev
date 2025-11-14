@@ -1,0 +1,57 @@
+main,
+footer {
+    
+  margin: 0 auto; /* Make the div center */
+  max-width: 700px;
+  color: lime;
+  background-color: #333;
+  padding: 1em; /* em is a size related to the current base font */
+}
+
+h1 {
+  border-bottom: 4px double lime;
+}
+
+body {
+  border: 2px solid #F9E79F ; /* light yellow */
+}
+
+html {
+  border: 2px solid #AED6F1; /* light blue */
+}
+
+.round {
+    border-radius: 20%;
+}
+
+a {
+    color: lime;
+}
+a:hover {
+    border-top: 1px solid lime;
+}
+
+main,
+footer {
+    padding-bottom: 2em;
+}
+
+footer {
+    border-top: 1px solid lime;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+main {
+    overflow: auto;
+}
+
+.paddingLeft {
+    margin-left: 50px;
+}
